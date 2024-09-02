@@ -31,7 +31,7 @@ void addContact(std::vector<Contact>& contacts, const Contact& contact) {
 // Función para mostrar todos los contactos 
 void showContacts(const std::vector<Contact>& contacts) {
     if (contacts.empty()) {
-        std::cout << "No hay contactos para mostrar.\n";
+        std::cout << "No hay usuarios para mostrar.\n";
         return;
     }
 
